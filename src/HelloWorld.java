@@ -7,5 +7,6 @@ public class HelloWorld{
 class Super{
     static void main() {
         System.out.println("new class");
+
     }
         }
