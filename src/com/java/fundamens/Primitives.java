@@ -46,5 +46,6 @@ public class Primitives {
         //float
         //double
         //char
+
     }
 }
