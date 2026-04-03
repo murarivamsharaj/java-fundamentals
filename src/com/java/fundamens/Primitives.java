@@ -44,6 +44,7 @@ public class Primitives {
         System.out.println("population =," + population + ", mobileNumber" + mobileNumber);
 
         //float
+
         //double
         //char
 
