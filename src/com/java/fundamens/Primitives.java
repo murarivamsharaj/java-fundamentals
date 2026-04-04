@@ -39,9 +39,9 @@ public class Primitives {
         //-9223372036854775808 to  9223372036854775807
         long population = 6387283;
         long mobileNumber = 7993840092L;
-        System.out.println("population =," + population);
-        System.out.println("mobileNumber =" + mobileNumber);
-        System.out.println("population =," + population + ", mobileNumber" + mobileNumber);
+        System.out.println("population: =," + population);
+        System.out.println("mobileNumber: =" + mobileNumber);
+        System.out.println("population:/ =," + population + ", mobileNumber" + mobileNumber);
 
         // float (single precision)
         float price = 99.99f;   // 'f' is required for float
