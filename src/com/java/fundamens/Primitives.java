@@ -43,10 +43,21 @@ public class Primitives {
         System.out.println("mobileNumber =" + mobileNumber);
         System.out.println("population =," + population + ", mobileNumber" + mobileNumber);
 
-        //float
+        // float (single precision)
+        float price = 99.99f;   // 'f' is required for float
+        System.out.println("Float value (price): " + price);
 
-        //double
-        //char
+        // double (double precision)
+        double height = 3.14159265359;
+        System.out.println("Double value (pi): " + height);
 
+        // char (single character)
+        char grade = 'A';
+        System.out.println("Char value (grade): " + grade);
+
+        // combining all
+        System.out.println("\nCombined Output:");
+        System.out.println("Price: " + price + ", Pi: " + height + ", Grade: " + grade);
     }
 }
+
