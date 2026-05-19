@@ -12,8 +12,8 @@ public class ProductOperatorsDemo {
         double finalPrice = totalCost - discountAmount;
         boolean canPurchase = isAvailable;
 
-        System.out.println("Total Cost: " + totalCost);
-        System.out.println("Discount: " + discountAmount);
+        System.out.println("Total Cost : " + totalCost);
+        System.out.println("Discount:  " + discountAmount);
         System.out.println("Final Price: " + finalPrice);
         System.out.println("Can Purchase: " + canPurchase);
     }
