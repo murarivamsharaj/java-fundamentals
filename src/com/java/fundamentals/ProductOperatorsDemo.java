@@ -1,4 +1,4 @@
-package com.java.fundamens;
+package com.java.fundamentals;
 
 public class ProductOperatorsDemo {
     static void main() {
