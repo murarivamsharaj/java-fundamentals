@@ -5,20 +5,18 @@ import java.util.List;
 
 public class ArrayListTest {
     static void main() {
-        List<String> list = new ArrayList<>();
+        List<String> cart = new ArrayList<>();
 
-     list.add("Java");
-     list.add("Python");
-     list.add("JavaScript");
-     list.add("C");
-     list.add("C++");
-     list.add("C#");
-     list.add("HTML");
+        cart.add("Laptop"); // Fast (O(1)) - Just goes at the end
+        cart.add("Mouse");  // Fast
+        cart.add("Keyboard");
 
-        System.out.println("Print languages");
+        // INSTANT ACCESS: O(1)
+        System.out.println(cart.get(1)); // Output: Mouse
 
-        for(String lang : list) {
-            System.out.println(lang);
-        }
+        // SLOW INSERTION: O(n)
+        // "Mouse" and "Keyboard" must both shift one index to the right
+        // to make room for "Monitor" at index 1.
+        cart.add(1, "Monitor");
     }
 }
