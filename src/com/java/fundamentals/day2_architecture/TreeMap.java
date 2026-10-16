@@ -13,7 +13,6 @@ public class TreeMap {
         map.put("E", 5);
         map.clear();
 
-
         System.out.println("TreeMap" + map);
     }
 }
