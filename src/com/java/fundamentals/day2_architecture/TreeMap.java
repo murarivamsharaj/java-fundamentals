@@ -12,6 +12,7 @@ public class TreeMap {
         map.put("C", 3);
         map.put("E", 5);
         map.put("F", 6);
+        map.put("G", 7);
         map.clear();
 
         System.out.println("TreeMap" + map);
