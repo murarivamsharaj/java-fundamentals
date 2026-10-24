@@ -13,6 +13,13 @@ public class TreeMap {
         map.put("E", 5);
         map.put("F", 6);
         map.put("G", 7);
+        map.put("H", 8);
+        map.put("I", 9);
+        map.put("J", 10);
+        map.put("K", 11);
+        map.put("L", 12);
+        map.put("M", 13);
+        map.put("N", 14);
         map.clear();
 
         System.out.println("TreeMap" + map);
